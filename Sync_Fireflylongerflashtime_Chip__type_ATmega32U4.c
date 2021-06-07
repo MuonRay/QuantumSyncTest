@@ -3,7 +3,7 @@
  * Author:   J. Campbell
  *           
  * Date:     06/09/2015
- * Hardware: ATtiny85
+ * Hardware: ATMega32 (onboard arduino pro micro)
  * Reference: https://www.youtube.com/watch?v=2d6dHHhKOOE
  * Description:
  * This metaheuristic program simulates a single quantum firefly. It uses an RGB-LED to flash
