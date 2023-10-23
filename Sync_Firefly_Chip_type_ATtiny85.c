@@ -1,6 +1,15 @@
 /* -----------------------------------------------------------------------
  * Title:    quantumsyncfirefly.c
  * Author:   J. Campbell
+ * 
+ * #this version gives excited state as blue
+ * 
+ * #use the other version to give excited state as red
+ * 
+ * # let sync for superposition, and measure to collapse the sync-wavefunction to induce the separability of the 2 states correcponding to the 2 nodes
+ * 
+ * # this is an example of a scalable operational quantum protocol, taken from quantum many-body entanglement and applied in a network of Kuramoto oscillators scenario in active Mermin
+ * type device hardware
  *           
  * Date:     06/09/2015
  * Hardware: ATtiny85
@@ -19,7 +28,7 @@
  * 2015 Muon Ray Enterprises
  * 
  * Chip type: ATtiny85
- * Clock frequency: Default internal clock 8MHz 
+ * Clock frequency: Default internal clock 8MHz, choose 1MHz 
  * So clock can be set as 8MHz/4 = 2MHz max for each pin. 
  * (note: it is possible to set at 16MHz but is overkill for this application)
  * 
